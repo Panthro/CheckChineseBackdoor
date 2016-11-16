@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = MainActivity.class.getSimpleName();
 
-    private static final List<String> MALWARES = Arrays.asList("com.adups.fota.sysoper", "com.adups.fota", "panthro.github.com.chinesebackdoordetector");
+    private static final List<String> MALWARES = Arrays.asList("com.adups.fota.sysoper", "com.adups.fota");
     private TextView textView;
     private AnimatedCircleLoadingView animatedCircleLoadingView;
     private View button;
