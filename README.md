@@ -10,5 +10,5 @@ https://github.com/Panthro/CheckChineseBackdoor/releases/latest
 
 Just download and tap [CHECK]
 
-![Clean phone](/screenshots/clean.png) ![Clean phone](/screenshots/detected.png)
+![Clean phone](/screenshots/clean.png) ![Detected](/screenshots/detected.png)
 
