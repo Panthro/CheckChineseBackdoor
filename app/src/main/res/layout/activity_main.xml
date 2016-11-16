@@ -36,4 +36,16 @@
             android:layout_alignLeft="@+id/buttonCheck"
             android:layout_alignStart="@+id/buttonCheck"
             android:layout_below="@id/buttonCheck"/>
+
+    <com.github.jlmd.animatedcircleloadingview.AnimatedCircleLoadingView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/circle_loading_view"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+
+            android:layout_centerInParent="true"
+            app:secondaryColor="@color/colorError"
+            app:mainColor="@color/colorClean"
+            app:textColor="@android:color/white"
+            />
 </RelativeLayout>
