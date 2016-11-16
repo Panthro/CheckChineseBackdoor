@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ChineseBackdoorDetector</string>
+    <string name="detected">Malware detected</string>
+    <string name="clean">Phone is clean</string>
+    <string name="check">Check</string>
+    <string name="press_the_check_button_to_check_if_your_phone_is_infected">Press the CHECK button to check if your phone is infected</string>
+</resources>

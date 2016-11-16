@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="panthro.github.com.chinesebackdoordetector.MainActivity">
+
+    <Button
+            android:text="@string/check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textHello"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="56dp"
+            android:id="@+id/buttonCheck"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/press_the_check_button_to_check_if_your_phone_is_infected"
+            android:layout_centerHorizontal="true"
+            android:id="@id/textHello"
+            />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textCheck"
+            android:layout_marginTop="20dp"
+            android:layout_alignLeft="@+id/buttonCheck"
+            android:layout_alignStart="@+id/buttonCheck"
+            android:layout_below="@id/buttonCheck"/>
+</RelativeLayout>
